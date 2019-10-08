@@ -64,4 +64,6 @@ AMQP编码的数据流由带有嵌入式构造函数（constructor）的无类�
 
 AMQP编码的数据流由无类型字节组成，字节流中嵌入了构造器用于解析字节数据。 我们可以认为构造器是一种用于解析并构造类型值的函数，它从开放式的字节流中读取无类型字节。 AMQP编码的数据流始终以构造器开头。
 
-![图1.1： 基本类型编码格式](../imgs/Figure1-1-Primitive-Format-Code.png)
+![图1.1： 基本类型编码格式](./imgs/Figure1-1-Primitive-Format-Code.png "图1.1： 基本类型编码格式")
+
+<center>图1-1 基本类型编码格式（utf8 string）</center>
