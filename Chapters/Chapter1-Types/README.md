@@ -53,10 +53,11 @@ AMQP允许使用描述符（descriptor）对任何AMQP类型进行注解的方�
 
 符号描述符（symbolic descriptors）
     ```<domain>:<name>```
+
 数值描述符（numeric descriptors）
     ```(domain-id<<32) | descriptor-id```
 
-译者注：请结合后面descriptor的示例去理解。
+**译者注：请结合后面descriptor的示例去理解。**
 
 ## 1.2 类型编码
 
