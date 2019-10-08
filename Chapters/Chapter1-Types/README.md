@@ -66,4 +66,4 @@ AMQP编码的数据流由无类型字节组成，字节流中嵌入了构造器�
 
 ![图1.1： 基本类型编码格式](./imgs/Figure1-1-Primitive-Format-Code.png "图1.1： 基本类型编码格式")
 
-<center>图1-1 基本类型编码格式（utf8 string）</center>
+<p align="center"> 图1-1 基本类型编码格式（utf8 string）</p>
