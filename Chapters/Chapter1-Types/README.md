@@ -68,3 +68,9 @@ AMQP编码的数据流由无类型字节组成，字节流中嵌入了构造器�
 ![图1.1： 基本类型编码格式](./imgs/Figure1-1-Primitive-Format-Code.png "图1.1： 基本类型编码格式")
 
 <p align="center"> 图1-1 基本类型编码格式（utf8 string）</p>
+AMQP构造函数由基本类型编码（Primitive Format Code）或自定义描述类型编码（Described Format Code）组成： 基本类型的编码代表了AQMP基本类型的构造函数，自定义描述类型的编码由描述符和和基本类型编码组成， 描述符定义了如何从AMQP基本类型中生成指定域的类型。
+
+![图1.2：自定义描述类型编码格式](./imgs/Figure1-2-Described-Format-Code.png "图1.2：自定义描述类型编码格式")
+
+<p align="center"> 图1-2 自定义描述类型编码格式（URL）</p>
+
